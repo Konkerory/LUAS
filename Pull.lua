@@ -52,7 +52,7 @@ commands.save = function(set_name)
   
   settings.targets = L{settings.sets[set_name]:unpack()}
   settings:save()
-  windower.add_to_chat(settings.add_to_chat_mode, set_name . . ' target set loaded')
+  windower.add_to_chat(settings.add_to_chat_mode, set_name .. ' target set loaded')
   end
 
 commands.add = function(...)
