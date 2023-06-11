@@ -91,6 +91,8 @@ commands.list = function()
       end
     
     windower.add_to_chat(settings.add_to_chat_mode, 'Targets:')
+    for _, target in ipairs(settings.targets) do
+        windower.add_to_chat(settings.add_to_chat_mode, ' ' .. target)
     end
   end
 commands.l = commands.list
