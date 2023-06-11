@@ -68,7 +68,7 @@ commands.add = function(...)
   local new_target = L{}
   for k, v in ipairs(settings.targets) do
     if v ~= target then
-      new+targets:append(v)
+      new_targets:append(v)
       end
     end
   settings.targets = new_targets
