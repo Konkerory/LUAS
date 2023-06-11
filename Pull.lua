@@ -86,7 +86,7 @@ commands.ra = commands.remoeall
 
 commands.list = function()
   if #settings.targets == 0 then
-    windower.add_to_chat(settings.add_to_chat_mode, "No target set')
+    windower.add_to_chat(settings.add_to_chat_mode, 'No target set')
       return
       end
     
