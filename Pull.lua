@@ -58,7 +58,7 @@ commands.save = function(set_name)
 commands.add = function(...)
   local target = T{...}:sconcat()
   
-  if target = '' then
+  if target == '' then
     local selected_target = windower.ffxi.get_mob_by_target('t')
     if not selected_target then return end
     target = selected_target.name
