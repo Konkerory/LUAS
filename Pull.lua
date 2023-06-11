@@ -110,7 +110,7 @@ commands.once = function(...)
 commands.o = commands.once
 
 commands.help = function()
-  windower.add_to_chat(settings.add_to_chat_mode, "Puller:')
+  windower.add_to_chat(settings.add_to_chat_mode, 'Puller:')
     windower.add_to_chat(settings.add_to_chat_mode, ' //targ add <target name> = remove a target from the list')
     windower.add_to_chat(settings.add_to_chat_mode, ' //targ remove <target name> - remove a target from the list')
     windower.add_to_chat(settings.add_to_chat_mode, ' //targ removeall - remove all targets fromn the list')
